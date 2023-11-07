@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: crimson;
+    padding: 20px;
+    font-family: verdana;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container{
+    height: 500px;
+    border: 3px solid black;
+    display: flex;
+    gap: 30px;
+}
+
+.container .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: crimson;
+    font-size: 3em;
+}
+.container .box:nth-last-of-type(3){
+    align-self: end;
+    align-self: center;
+}
